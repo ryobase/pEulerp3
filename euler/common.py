@@ -2,7 +2,7 @@
 
 import math
 
-# Test prime number
+# Test to see whether the input is a prime number or not
 # https://en.wikipedia.org/wiki/Primality_test
 def isPrime(n):
     if n <= 1:
@@ -36,3 +36,7 @@ def isPalindrome(n):
         # Due to dynamic typing nature of Python floor division is needed
         num = num//10
     return rev == n
+
+# Check to see whether an input is even number
+def isEven(n):
+    return n%2 == 0
