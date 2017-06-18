@@ -40,3 +40,10 @@ def isPalindrome(n):
 # Check to see whether an input is even number
 def isEven(n):
     return n%2 == 0
+
+# Check to see if an input is a perfect root (natural number)
+def isPerfectRoot(n):
+    if n < 0:
+        return False
+    m = math.sqrt(abs(n))
+    return math.pow(m, 2) == n
