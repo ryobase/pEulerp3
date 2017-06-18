@@ -5,7 +5,10 @@ This is a collection of codes to solve Project Euler problems.
 
 Every solutions here are written in Python 3 each with addtional info and logics behind them.
 
----
+This is meant to be a reference for myself, which means that I am not allowing myself to cheat.
+
+License
+-------
 
 Copyright 2017 Moss Pakhapoca
 
