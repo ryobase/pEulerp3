@@ -2,6 +2,10 @@
 
 import math
 
+# Floor square root
+def root(n):
+    return math.floor(math.sqrt(n))
+
 # Test to see whether the input is a prime number or not
 # https://en.wikipedia.org/wiki/Primality_test
 def isPrime(n):
