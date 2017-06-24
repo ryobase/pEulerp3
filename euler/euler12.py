@@ -40,4 +40,4 @@ def run(lim):
     return count
 
 if __name__ == '__main__':
-    print("{}".format(run(4)))
+    print("{}".format(run(500)))
