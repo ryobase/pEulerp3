@@ -10,7 +10,7 @@ def run():
     prev = 1
     cur = 2
     while prev <= 4000000:
-        if common.isEven(prev):
+        if not common.isOdd(prev):
             res+=prev
         temp = prev
         prev = cur
