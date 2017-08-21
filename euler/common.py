@@ -22,6 +22,17 @@ def isPrime(n):
                 return False
         return True
 
+# Generate a list of prime numbers using Sieve of Eratosthenes
+# https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
+def primeList(n):
+    p = [True] * (n + 1)
+    p[0] = p[1] = False
+    for i in range(root(n) + 1):
+        if p[i] is True:
+            for j in range(i * i, len(p), i):
+                p[j] = False
+    return p
+
 # Greatest common divisor for all natural numbers
 # https://en.wikipedia.org/wiki/Greatest_common_divisor
 def gcd(a, b):
